@@ -25,7 +25,7 @@ unsigned int textures[3];
 
 void LoadTexrures(){
 
-	AUX_RGBImageRec *texture1 = auxDIBImageLoadA("circles2.bmp"),
+	AUX_RGBImageRec *texture1 = auxDIBImageLoadA("circles3.bmp"),
 	*texture2 = auxDIBImageLoadA("456.bmp"),
 	*texture3 = auxDIBImageLoadA("789.bmp");
 
@@ -67,23 +67,21 @@ void drawParallelogram(Color color, Coord start, int heightX, int heightY, int h
 	glTranslatef(0, 0, 0);
 	glColor3f(color.red, color.green, color.blue);
 
-	needTexture = true;
-
 	//грань 1
-	//glColor3f(1, 1, 1);
+
 	if (needTexture) {
-		glBindTexture(GL_TEXTURE_2D, textures[0]);
+		glBindTexture(GL_TEXTURE_2D, textures[1]);
 		glEnable(GL_TEXTURE_2D);
 	}
 	glBegin(GL_QUADS);
 	if (needTexture)
-		glTexCoord2f(0.5, 0);
+		glTexCoord2f(1, 0);
 	glVertex3f(start.x, start.y, start.z);
 	if (needTexture)
-		glTexCoord2f(1, 1);
+		glTexCoord2f(1, 1); 
 	glVertex3f(start.x, start.y + heightY, start.z);
 	if (needTexture)
-		glTexCoord2f(1, 1);
+		glTexCoord2f(0, 1);
 	glVertex3f(start.x + heightX, start.y + heightY, start.z);
 	if (needTexture)
 		glTexCoord2f(0, 0);
@@ -91,8 +89,6 @@ void drawParallelogram(Color color, Coord start, int heightX, int heightY, int h
 	glEnd();
 	if (needTexture)
 		glDisable(GL_TEXTURE_2D);
-
-	needTexture = false;
 
 	//грань 2
 	if (needTexture) {
@@ -116,6 +112,7 @@ void drawParallelogram(Color color, Coord start, int heightX, int heightY, int h
 	if (needTexture)
 		glDisable(GL_TEXTURE_2D);
 
+	
 
 	//грань 3
 	if (needTexture) {
@@ -127,10 +124,10 @@ void drawParallelogram(Color color, Coord start, int heightX, int heightY, int h
 		glTexCoord2f(1, 0); 
 	glVertex3f(start.x + heightX, start.y, start.z + heightZ);
 	if (needTexture)
-		glTexCoord2f(0, 1); 
+		glTexCoord2f(1, 1); 
 	glVertex3f(start.x + heightX, start.y + heightY, start.z + heightZ);
 	if (needTexture)
-		glTexCoord2f(1, 0); 
+		glTexCoord2f(0, 1);
 	glVertex3f(start.x, start.y + heightY, start.z + heightZ);
 	if (needTexture)
 		glTexCoord2f(0, 0); 
@@ -148,13 +145,13 @@ void drawParallelogram(Color color, Coord start, int heightX, int heightY, int h
 	}
 	glBegin(GL_QUADS);
 	if (needTexture)
-		glTexCoord2f(1, 1);
+		glTexCoord2f(1, 0);
 	glVertex3f(start.x + heightX, start.y, start.z);
 	if (needTexture)
-		glTexCoord2f(0, 1);
+		glTexCoord2f(1, 1);
 	glVertex3f(start.x + heightX, start.y + heightY, start.z);
 	if (needTexture)
-		glTexCoord2f(1, 0);
+		glTexCoord2f(0, 1);
 	glVertex3f(start.x + heightX, start.y + heightY, start.z + heightZ);
 	if (needTexture)
 		glTexCoord2f(0, 0);
@@ -473,7 +470,7 @@ void Draw_sh() {
 	glPopMatrix();
 
 	glPushMatrix();
-	glTranslatef(0, 0, 0);
+	glTranslatef(0, 1, 0);
 	glBegin(GL_LINES);
 	glColor3f(0.0, 0.0, 1.0);
 	glVertex3f(0, -400, 0);
@@ -482,7 +479,7 @@ void Draw_sh() {
 	glPopMatrix();
 
 	glPushMatrix();
-	glTranslatef(0, 0, 0);
+	glTranslatef(0, 0, 1);
 	glBegin(GL_LINES);
 	glColor3f(0.0, 0.0, 0.0);
 	glVertex3f(0, 0, -400);
