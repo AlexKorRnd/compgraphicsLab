@@ -1,0 +1,50 @@
+﻿Build started 27.11.2016 14:37:14.
+     1>Project "C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\CompGraphicsLab3\CompGraphicsLab3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(68): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(81): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(84): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(87): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(105): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(108): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(111): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(114): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(128): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(131): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(134): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(137): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(152): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(155): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(158): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(161): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(171): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(172): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(179): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(180): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(181): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(195): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(197): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(290): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(389): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(390): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(415): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(432): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(457): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(590): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(597): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(610): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\алексей\documents\visual studio 2013\projects\compgraphicslab3\compgraphicslab3\main.cpp(623): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\Debug\CompGraphicsLab3.exe" /INCREMENTAL /NOLOGO "C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\Debug\CompGraphicsLab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\Debug\CompGraphicsLab3.lib" /MACHINE:X86 Debug\Main.obj
+         CompGraphicsLab3.vcxproj -> C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\Debug\CompGraphicsLab3.exe
+     1>Done Building Project "C:\Users\алексей\Documents\Visual Studio 2013\Projects\CompGraphicsLab3\CompGraphicsLab3\CompGraphicsLab3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
